@@ -1,7 +1,8 @@
 import "./App.css";
+import { Layout } from "./components/layout";
 
 function App() {
-  return <div>이거슨 중고거래 플랫폼</div>;
+  return <Layout />;
 }
 
 export default App;
