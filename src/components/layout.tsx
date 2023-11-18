@@ -1,7 +1,7 @@
 export const Layout = () => {
   return (
     <div>
-      <div>이거슨 중고거래 플랫폼</div>
+      <div>이거 진짜 빠름</div>
     </div>
   );
 };
