@@ -31,14 +31,6 @@ const SignUpForm: React.FC = () => {
     fontWeight: "bold",
   };
 
-  const inputStyle = {
-    width: "100%",
-    padding: "10px",
-    border: "1px solid #ccc",
-    borderRadius: "4px",
-    boxSizing: "border-box",
-  };
-
   const buttonStyle = {
     width: "100%",
     padding: "10px",
@@ -60,7 +52,6 @@ const SignUpForm: React.FC = () => {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              style={inputStyle}
             />
           </label>
         </div>
@@ -71,7 +62,6 @@ const SignUpForm: React.FC = () => {
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              style={inputStyle}
             />
           </label>
         </div>
@@ -82,7 +72,6 @@ const SignUpForm: React.FC = () => {
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              style={inputStyle}
             />
           </label>
         </div>
